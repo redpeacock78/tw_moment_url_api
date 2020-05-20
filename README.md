@@ -1,13 +1,17 @@
 ## tw_moment_url_api
 ### Usage
 ```bash
+# 1st terminal
 $ git clone https://github.com/redpeacock78/tw_moment_url_api
 $ cd tw_moment_url_api/
 $ yarn install
 $ yarn build
 $ node dist/main.js
 start
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+######################################################################################
+
+# 2nd terminal
 $ curl -v 'http://localhost:3000?url=https://twitter.com/i/events/1250404129383395328'
 * Rebuilt URL to: http://localhost:3000/?url=https://twitter.com/i/events/1250404129383395328
 *   Trying ::1...
