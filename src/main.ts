@@ -30,7 +30,7 @@ app.use(async (req, res) => {
 
   browser.close();
 
-  res.set("Content-type", "text/json");
+  res.set("Content-type", "application/json");
   res.send(url_json);
 });
 
