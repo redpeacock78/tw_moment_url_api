@@ -5,6 +5,12 @@ const app = express();
 app.use(async (req, res) => {
   const url: string = req.query.url;
 
+  if (!url) {
+    return res
+      .status(400)
+      .send("Please provide a URL. Example: ?url=https://example.com");
+  }
+
   const browser = await puppeteer.launch({
     headless: true,
   });
