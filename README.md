@@ -24,7 +24,7 @@ $ curl -v 'http://localhost:3000?url=https://twitter.com/i/events/12504041293833
 > 
 < HTTP/1.1 200 OK
 < X-Powered-By: Express
-< Content-Type: text/json; charset=utf-8
+< Content-Type: application/json; charset=utf-8
 < Content-Length: 911
 < ETag: W/"38f-T2Ae4T/StJvq8Qte3GXGwNJA6HU"
 < Date: Wed, 20 May 2020 20:39:04 GMT
